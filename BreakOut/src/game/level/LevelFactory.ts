@@ -34,7 +34,7 @@ export class LevelFactory extends PIXI.Container {
     }
 
     public getNextLevel(level: number): Array<GameObject> {
-        return this.getLevel(6);
+        return this.getLevel(level);
     }
 
     private getLevel(difficulty: number): Array<GameObject> {
