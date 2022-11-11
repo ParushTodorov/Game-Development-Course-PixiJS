@@ -22,7 +22,7 @@ export class Game extends PIXI.Container {
     private gameIsStarted: boolean = false;
     private winningSymbol: RealmObjTypes | null;
 
-    public static BET: number = 10;
+    public static BET: number = 0.25;
     public static SYMBOLS_NUMBER: number = 100;
     public static AMOUNT: number = 10;
 
