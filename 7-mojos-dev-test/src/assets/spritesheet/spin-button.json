@@ -1,0 +1,47 @@
+{"frames": {
+
+"SpinButton_Active - 1.png":
+{
+	"frame": {"x":0,"y":0,"w":125,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":125},
+	"sourceSize": {"w":125,"h":125}
+},
+"SpinButton_Active - 2.png":
+{
+	"frame": {"x":125,"y":0,"w":125,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":125},
+	"sourceSize": {"w":125,"h":125}
+},
+"SpinButton_Active - 3.png":
+{
+	"frame": {"x":250,"y":0,"w":125,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":125},
+	"sourceSize": {"w":125,"h":125}
+},
+"SpinButton_Active - 4.png":
+{
+	"frame": {"x":375,"y":0,"w":125,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":125},
+	"sourceSize": {"w":125,"h":125}
+}},
+"animations": {
+	"SpinButton_Active": ["SpinButton_Active - 1.png","SpinButton_Active - 2.png","SpinButton_Active - 3.png","SpinButton_Active - 4.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "spin-button.png",
+	"format": "RGBA8888",
+	"size": {"w":500,"h":125},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:eafc644ef2f145b5d10d31081aa02344:2f9b55a0161239a92f2e7e9cc601652c:cce86a4752cb4844bec6c3e8569316a8$"
+}
+}
