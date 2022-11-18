@@ -23,7 +23,7 @@ export class Game extends PIXI.Container {
     public static AMOUNT: number = 10;
     public static REEL_VELOCITY: number = 60;
     public static OBJECT_ROTATED: number = 150;
-    private WINNING_REELS: Array<number> = [1]
+    private WINNING_ROWS: Array<number> = [1]
 
     constructor() {
         super();
@@ -129,7 +129,7 @@ export class Game extends PIXI.Container {
 
         let counts: number;
 
-        this.WINNING_REELS.forEach((j) => {
+        this.WINNING_ROWS.forEach((j) => {
             counts = 1;
             let winningType = null;
 
